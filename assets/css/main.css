@@ -148,13 +148,12 @@ body
 	width: 100%;
 }
 .header-title{
-	font-size: 75px;
+	font-size: 50px;
 	letter-spacing: 10px;
 	font-weight: 200;
 }
 .header-subtitle{
-	font-size: 20px;
-	letter-spacing: 3px;
+	font-size: 22px;
 }
 /*=================================================
 ||				4. Our Service
@@ -273,7 +272,7 @@ body
 	transform: scale(1.1);
 }
 .portfolio-item-details{
-	margin: 20px 0px 50px; 
+	margin: 20px 0px 0px; 
 	padding: 10px 10px;
 	background: rgba(0, 0, 0, 0.4);
 }
@@ -394,6 +393,24 @@ a .rss:hover{
 	border-color: #ff8f00;
 }
 
+.mt-50{
+	margin-top: 50px;
+}
+.mt-20{
+	margin-top: 20px;
+}
+
+.a-clear, a-clear:active, .a-clear:hover {
+	color: white;
+	text-decoration: unset;
+}
+
+.portfolio-item{
+	margin: 15px;
+	height: 600px;
+}
+
+
 /*=================================================
 ||				11. Others
 ==================================================*/
@@ -413,6 +430,12 @@ a .rss:hover{
 	.portfolio .portfolio-item{
 		margin: 15px;
 	}
+
+	.portfolio-item{
+		height: 720px;
+	}
+
+
 	.price-title, .price-list{
 		text-align: center;
 	}
@@ -435,9 +458,16 @@ a .rss:hover{
 	.quote{
 		padding: 0 15px;
 	}
+	
 } 
 @media (max-width: 480px){
 	.header-table{
 		max-height: 627px;
+	}
+}
+
+@media (max-width: 960px){
+	#svg {
+		display: none;
 	}
 }
